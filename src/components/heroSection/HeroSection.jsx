@@ -1,7 +1,6 @@
 import React from 'react';
 import banner from '../../assets/banner.png';
 import { MoveRight, Check } from 'lucide-react';
-import './HeroSection.css';
 
 const HeroSection = () => {
     return (
@@ -10,7 +9,7 @@ const HeroSection = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse max-sm:text-center">
                     <img
                         src={banner}
-                        className="max-w-sm animate-[fadeInOut_2s_ease-in-out_infinite]"
+                        className="max-w-sm animate-pulse"
                     />
                     <div>
                         <div className="badge badge-soft badge-error border-red-500 p-5 rounded-4xl mb-5">Frontier AI Models</div>
